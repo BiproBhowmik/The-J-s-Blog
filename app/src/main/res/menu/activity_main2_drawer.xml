@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_myprofile"
+            android:icon="@drawable/icon_test"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_addpost"
+            android:icon="@drawable/ic_addicon2"
+            android:title="Add Post" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_creator"
+            android:title="About Creator" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@drawable/ic_users"
+            android:title="See Users" />
+        <item
+            android:id="@+id/nav_view_change"
+            android:icon="@drawable/ic_swap_view"
+            android:title="View Change" />
+
+        <item
+            android:id="@+id/nav_groupMessage"
+            android:icon="@drawable/ic_group_message"
+            android:title="Group Message" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+
+        </menu>
+    </item>
+
+    <item android:title="Authentication Part">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

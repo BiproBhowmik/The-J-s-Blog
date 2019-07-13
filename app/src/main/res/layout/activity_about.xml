@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/alart_dialog_icon"
+                app:civ_border_color="#000"
+                app:civ_border_width="3dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/days_later"
+                android:paddingTop="5dp"
+                android:text="Bipro Bhowmik Joy"
+                android:textColor="#47D83C"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:text="biprobhowmik5@gmail.com\njoybhowmik5@yahoo.com"
+                android:textColor="#00FF0B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:text="Leading University(CSE)\n44th Batch\n7th Semester(Mar-2019)"
+                android:textColor="#673AB7"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="You can contact with the creator via following medias..."
+        android:textColor="#FF1200"
+        android:textSize="15sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/facebookProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/facebook_image"
+                        app:civ_border_color="#000"
+                        app:civ_border_width="3dp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/youtube_image" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/twiter"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/twiter_image"
+                        app:civ_border_color="#000"
+                        app:civ_border_width="3dp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/blog"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/blog_image" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:weightSum="2">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/instagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/instagram_image"
+                        app:civ_border_color="#000"
+                        app:civ_border_width="3dp" />
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/facebookPage"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    app:cardBackgroundColor="#000"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="20dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/facebook_page_image" />
+
+                </android.support.v7.widget.CardView>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/days_later"
+                android:paddingTop="5dp"
+                android:text="Thanks From The J's Blog Group"
+                android:textColor="#B81BD1"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

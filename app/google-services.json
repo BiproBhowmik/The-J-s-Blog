@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "1068495853862",
+    "firebase_url": "https://workwithfirebase-2389d.firebaseio.com",
+    "project_id": "workwithfirebase-2389d",
+    "storage_bucket": "workwithfirebase-2389d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068495853862:android:3b24628c9cb2f73f",
+        "android_client_info": {
+          "package_name": "com.joy.thejsblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068495853862-er7euik28md3q6lk78q452niuhd8otjs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joy.thejsblog",
+            "certificate_hash": "7d20f9c3575902451c26966f7ecbe7086227cd52"
+          }
+        },
+        {
+          "client_id": "1068495853862-ob7h4039hv07m9u0pm4fg7g4lo9ehcqv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joy.thejsblog",
+            "certificate_hash": "383ea65c3b9dd89ac6aa0f2870e16f8e9ba70e34"
+          }
+        },
+        {
+          "client_id": "1068495853862-q32cqkscihgfgpirkq205773nsk32n04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKKAX4X5CAhKDoZzGmBfCZYSk9xx8XM7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068495853862-q32cqkscihgfgpirkq205773nsk32n04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068495853862:android:df92d8714be863a4",
+        "android_client_info": {
+          "package_name": "com.joy.workwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1068495853862-j10qnt1f2cn07cere11623el9ltr2609.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joy.workwithfirebase",
+            "certificate_hash": "383ea65c3b9dd89ac6aa0f2870e16f8e9ba70e34"
+          }
+        },
+        {
+          "client_id": "1068495853862-q32cqkscihgfgpirkq205773nsk32n04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKKAX4X5CAhKDoZzGmBfCZYSk9xx8XM7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1068495853862-q32cqkscihgfgpirkq205773nsk32n04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
